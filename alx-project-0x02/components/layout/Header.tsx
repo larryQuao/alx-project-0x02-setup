@@ -7,7 +7,7 @@ const Header: React.FC = () => {
         <h1 className="text-2xl font-bold">Larry&apos;s App</h1>
         <ul className="flex space-x-4">
           <li>
-            <Link className="hover:underline text-xl font-medium" href="/">Home</Link>
+            <Link className="hover:underline text-xl font-medium" href="/home">Home</Link>
           </li>
           <li>
             <Link className="hover:underline text-lg font-medium" href="/about">About</Link>
