@@ -17,3 +17,8 @@ export interface Comment {
   authorId: number;
   content: string;
 }
+
+export interface CardProps {
+  title: string;
+  content: string;
+}
